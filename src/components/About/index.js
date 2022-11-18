@@ -10,9 +10,8 @@ export default function About() {
             <h1>Few words about me</h1>
             <p>
               I’ve been working as an <b style={{"color":"rgb(230, 158, 71)"}}>Associate Software Engineer</b> for the past two years, gaining more experience in the tech industry.
-              With a strong background as an indie game developer
-              and with one published game on the Google Play. Great mind for problem solving and eager to constantly learn 
-              and add skills to my toolbox and keep my knowledge and skills up to date. 
+              I have a strong background as an indie game developer with one published game on Google Play. 
+              I'm eager to constantly learn and add skills to my toolbox and keep my knowledge and skills up to date. 
             </p>
             <h3>How it started</h3>
             <p>

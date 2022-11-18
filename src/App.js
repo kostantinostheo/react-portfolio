@@ -42,7 +42,7 @@ function App() {
           showAt={100}
           speed={1500}
         >
-        <img className='top-button' src={arrow} width={40} alt='top button'/>
+        <img className='top-button' src={arrow} alt='top button'/>
       </BackToTop>
       </ActiveItemContext.Provider>
     </div>
