@@ -38,7 +38,7 @@ function App() {
           <Projects/>
           <Contact setVisiblility={setVisiblility}/>
         </ScrollSpy>
-        <BackToTop
+        <BackToTop style={{"margin":"30px","padding":"0", "marginLeft":"0px", "marginTop":"0px"}}
           showAt={100}
           speed={1500}
         >

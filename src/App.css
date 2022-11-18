@@ -5,13 +5,10 @@
 }
 .top-button{
   width: 40px;
-  margin-right: 1em;
-  margin-bottom: 1em;
 }
 @media only screen and (max-width: 600px) {
   .top-button{
     width: 20px;
-    margin: 0;
   }
 }
 .App-logo {
