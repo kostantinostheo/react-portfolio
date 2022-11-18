@@ -1,0 +1,52 @@
+.Experience {
+    padding: 40px;
+    min-height: 100vh;
+    background-color: #523755;
+
+    /* Center child div vertically and horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Experience h1 {
+    font-size: 40px;
+    color: aliceblue;
+}
+.Experience h3 {
+    margin: 0;
+    padding-bottom: 10px;
+    color: aliceblue;
+}
+.Experience h4 {
+    margin: 0;
+    color: aliceblue;
+}
+.Experience a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.Experience a:hover {
+    color: rgb(83, 188, 248);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px auto;
+    background-color: #3e2741;
+    box-shadow: rgba(43, 43, 43, 0.5) 1.95px 1.95px 4px;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    transition: all .2s ease-in-out;
+}
+.grid-item {
+    padding: 20px;
+    text-align: left;
+    align-items: center;
+    display: flex;
+}
+.grid-container:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: rgba(43, 43, 43, 0.2) 7.95px 7.95px 25.6px;
+}

@@ -1,0 +1,85 @@
+.Projects {
+    padding: 40px;
+    min-height: 100vh;
+    background-color: #1b222c;
+    color: aliceblue;
+
+    /* Center child div vertically and horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Projects h1{
+}
+.Projects img{
+    width: 40px;
+}
+.proj-grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+.proj-grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.proj-grid-item  a{
+    text-decoration: none;
+    color: #1b222c;
+}
+.card{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: left;
+    transition: all .2s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.proj-icons{
+    display: inline;
+}
+.proj-icons img{
+    padding-right: 0.2em;
+    width: 30px;
+}
+.card h4{
+    font-size: 25px;
+    margin: 0;
+    text-decoration: none;
+}
+.card p{
+    font-size: 14px;
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Projects h1{
+        margin: 0;
+    }
+    .proj-grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;
+    }
+    .proj-grid-item {
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .card{
+        background-color: aliceblue;
+        border-radius: 10px;
+        padding: 10px;
+        width: 200px;
+        height: fit-content;
+        text-align: left;
+        transition: all .2s ease-in-out;
+    }
+}

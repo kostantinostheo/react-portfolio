@@ -1,0 +1,76 @@
+.About {
+    padding: 40px;
+    min-height: 100vh;
+    background-color: #2a2640;
+    color: rgb(230, 244, 255);
+
+    /* Center child div vertically and horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.centered {
+    position: relative;
+    max-height: inherit;
+}
+
+.About h1 {
+    font-size: 40px;
+    color: aliceblue;
+}
+.About h3 {
+    color: rgb(230, 158, 71);
+    margin: auto;
+    width: 60%;
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+}
+.About p {
+    color: aliceblue;
+    text-align: justify;
+    width: 60%;
+    margin: auto;
+}
+.About h4 {
+    padding-top: 1em;
+    text-align: center;
+    color: rgb(230, 158, 71);
+}
+.About button {
+    height: 45px;
+    border-radius: 10px;
+    background-color: rgb(230, 158, 71);
+    border: 0;
+}
+.About img {
+    height: 20px;
+    width: 35px;
+    display: flex;
+}
+
+.About button:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .About h1 {
+        font-size: 30px;
+    }
+    .About h3 {
+        color: rgb(230, 158, 71);
+        margin: auto;
+        width: 90%;
+        text-align: left;
+        margin-top: 1em;
+        margin-bottom: 0.2em;
+    }
+    .About p {
+        text-align: left;
+        width: 90%;
+        margin: auto;
+    }
+
+}

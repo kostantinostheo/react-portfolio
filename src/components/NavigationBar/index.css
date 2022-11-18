@@ -1,0 +1,71 @@
+.NavigationBar {
+    font-family: 'Nunito', sans-serif;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden;
+    background-color: RGB(52, 47, 76, 0);
+    color: aliceblue;
+}
+
+ul{
+    padding: 0;
+    align-items: center;
+    display: flex;
+}
+
+ul img{
+    width: 35px;
+    background-color: rgb(71, 38, 69);
+    border-radius: 10px;
+    margin-left: 2em;
+    margin-right: 1em;
+}
+ul img:hover{
+    cursor: pointer;
+}
+.NavigationBar a{
+    text-align: center;
+}
+ul li{
+    display: inline;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+ul li:hover{
+    cursor: pointer;
+    color: #BA292E;
+}
+ul a{
+    transition: all .1s ease-in-out;
+}
+ul a:hover{
+    transform: scale(1.2);
+}
+.responsive-menu-button{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    
+    ul li{
+        font-size: 12px;
+    }
+    ul img{
+        width: 30px;
+        background-color: rgb(71, 38, 69);
+        border-radius: 10px;
+        margin-left: 1.5em;
+    }
+}
+@media only screen and (max-width: 342px) {
+    
+    ul li{
+        font-size: 11px;
+    }
+    ul img{
+        width: 30px;
+        margin-left: 1.5em;
+        margin-right: 0;
+    }
+}

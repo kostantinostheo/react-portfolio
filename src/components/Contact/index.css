@@ -1,0 +1,35 @@
+.Contact {
+    padding: 40px;
+    min-height: 100vh;
+    background-color: rgb(224, 224, 224);
+    color: rgb(49, 49, 49);
+
+
+    /* Center child div vertically and horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Contact h1{
+    font-size: 40px;
+}
+.row{
+    margin-top: 1em;
+    display: flex;
+    max-height: fit-content;
+}
+.row img{
+    padding-right: 1em;
+    width: 30px;
+    height: 30px;
+}
+.row p {
+    margin: 0.5em;
+    font-weight: bold;
+}
+.row a {
+    font-weight: bold;
+}
