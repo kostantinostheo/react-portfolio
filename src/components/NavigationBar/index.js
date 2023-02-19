@@ -25,16 +25,16 @@ export default function NavigationBar({onVisible}) {
           <img src={logo} onClick={() => handleActiveItem('Home')} alt='navigation bar logo'/>
         </Link>
         <Link smooth spy to='About'>
-          <li onClick={() => handleActiveItem('About')} style={{"color": value === "About" ? '#BA292E' : '' }}> About </li>
+          <li onClick={() => handleActiveItem('About')} style={{"color": value === "About" ? '#b32ec5' : '' }}> About </li>
         </Link>
         <Link smooth spy to='Experience'>
-          <li onClick={() => handleActiveItem('Experience')} style={{"color": value === "Experience" ? '#BA292E' : '' }}> Experience </li>
+          <li onClick={() => handleActiveItem('Experience')} style={{"color": value === "Experience" ? '#b32ec5' : '' }}> Experience </li>
         </Link>
         <Link smooth spy to='Projects'>
-          <li onClick={() => handleActiveItem('Projects')} style={{"color": value === "Projects" ? '#BA292E' : '' }}> Projects </li>
+          <li onClick={() => handleActiveItem('Projects')} style={{"color": value === "Projects" ? '#b32ec5' : '' }}> Projects </li>
         </Link>
         <Link smooth spy to='Contact'>
-          <li onClick={() => handleActiveItem('Contact')} style={{"color": value === "Contact" ? '#BA292E' : '' }}> Find Me </li>
+          <li onClick={() => handleActiveItem('Contact')} style={{"color": value === "Contact" ? '#b32ec5' : '' }}> Find Me </li>
         </Link>
       </ul>
     </div>

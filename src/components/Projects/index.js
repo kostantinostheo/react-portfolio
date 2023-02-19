@@ -53,10 +53,11 @@ export default function Projects() {
             </a>
           </div>
           <div className="proj-grid-item">
-              <p style={{"textAlign": "left", "fontSize":"18px", "position":'absolute' ,"bottom":"0", "paddingBottom":"25px", "margin":0}}>
+              <p style={{"textAlign": "left", "fontSize":"19px", "position":'absolute' ,"bottom":"0", "paddingBottom":"25px", "margin":0}}>
                 <Typewriter
+                  className='typewritter'
                   options={{
-                    strings: "More coming soon...",
+                    strings: ["More coming soon...","No kidding..."],
                     autoStart: true,
                     loop: true,
                     pauseFor: 6000,

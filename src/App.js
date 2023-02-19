@@ -21,22 +21,16 @@ function App() {
   const [activeItem, setActiveItem] = useState();
   const value = { activeItem, setActiveItem };
 
-  let[onVisible, setVisible] = useState(false)
-
-  function setVisiblility(state){
-    setVisible(state)
-  }
-
   return (
     <div className="App">
       <ActiveItemContext.Provider value={value}>
-        <NavigationBar onVisible={onVisible}/>
+        <NavigationBar/>
         <ScrollSpy onUpdateCallback={(id) => setActiveItem(id.charAt(0).toUpperCase() + id.slice(1))} scrollThrottle={100} useBoxMethod={false}>
           <Home/>
           <About/>
           <Experience/>
           <Projects/>
-          <Contact setVisiblility={setVisiblility}/>
+          <Contact/>
         </ScrollSpy>
         <BackToTop style={{"margin":"30px","padding":"0", "marginLeft":"0px", "marginTop":"0px"}}
           showAt={100}

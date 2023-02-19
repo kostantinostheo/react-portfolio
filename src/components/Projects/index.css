@@ -1,7 +1,7 @@
 .Projects {
     padding: 40px;
     min-height: 100vh;
-    background-color: #1b222c;
+    background-image: linear-gradient(#191b20, #1b222c);
     color: aliceblue;
 
     /* Center child div vertically and horizontally */
@@ -12,6 +12,9 @@
 }
 
 .Projects h1{
+    text-align: left;
+    font-size: 40px;
+    margin-left: 0.8em;
 }
 .Projects img{
     width: 40px;
@@ -24,19 +27,24 @@
 .proj-grid-item {
     padding: 20px;
     font-size: 30px;
-    text-align: center;
+    text-align: left;
 }
 .proj-grid-item  a{
     text-decoration: none;
-    color: #1b222c;
+    color: #ffffff;
 }
 .card{
-    background-color: aliceblue;
+    background-color: #3e414b;
     border-radius: 10px;
+    height: 150px;
     padding: 10px;
     width: 300px;
     text-align: left;
     transition: all .2s ease-in-out;
+}
+.proj-grid-item span{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(50, 255, 23);
 }
 .card:hover{
     transform: scale(1.1);
@@ -54,14 +62,16 @@
     text-decoration: none;
 }
 .card p{
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
 }
 
 
 @media only screen and (max-width: 600px) {
     .Projects h1{
-        margin: 0;
+        text-align: left;
+        font-size: 40px;
+        margin-left: 0.8em;
     }
     .proj-grid-container {
         display: grid;
@@ -74,10 +84,10 @@
         text-align: center;
     }
     .card{
-        background-color: aliceblue;
+    
         border-radius: 10px;
         padding: 10px;
-        width: 200px;
+        width: 250px;
         height: fit-content;
         text-align: left;
         transition: all .2s ease-in-out;

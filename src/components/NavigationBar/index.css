@@ -1,11 +1,10 @@
 .NavigationBar {
-    font-family: 'Nunito', sans-serif;
     position: sticky;
     top: 0px;
     width: 100%;
     z-index: 1000;
     overflow: hidden;
-    background-color: RGB(52, 47, 76, 0);
+    background-color: rgb(71, 38, 69, 0);
     color: aliceblue;
 }
 
@@ -35,7 +34,7 @@ ul li{
 }
 ul li:hover{
     cursor: pointer;
-    color: #BA292E;
+    color: #b32ec5;
 }
 ul a{
     transition: all .1s ease-in-out;
@@ -50,6 +49,7 @@ ul a:hover{
     
     ul li{
         font-size: 12px;
+        width: 100%;
     }
     ul img{
         width: 30px;
