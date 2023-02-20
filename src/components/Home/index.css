@@ -19,6 +19,7 @@
     width: 700px
 }
 .Home h1{
+    width: 100%;
     font-size: 50px;
     color: aliceblue;
     letter-spacing: 2px;
@@ -42,7 +43,7 @@
     margin-bottom: 30em;
     position: relative;
     max-height: inherit;
-    max-width: 40% ;
+    max-width: 50% ;
 }
 
 @media only screen and (max-width: 600px) {
@@ -69,6 +70,15 @@
 @media only screen and (max-width: 1000px) {
 
     .ThreeDImage{
-        width: 200px;
+        width: 300px;
+    }
+    .Home span{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 1500px) {
+
+    .ThreeDImage{
+        width: 400px;
     }
 }
