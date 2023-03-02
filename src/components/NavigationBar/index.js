@@ -2,7 +2,12 @@ import './index.css'
 import React, {useState, useContext} from 'react';
 import { ActiveItemContext } from '../../App';
 import { Link } from "react-scroll";
-import logo from '../../resources/logo.png'
+
+import home from '../../resources/Icons/home.png'
+import user from '../../resources/Icons/user.png'
+import experience from '../../resources/Icons/experience.png'
+import projects from '../../resources/Icons/projects.png'
+import contact from '../../resources/Icons/contact.png'
 
 
 export default function NavigationBar({onVisible}) {
@@ -17,24 +22,26 @@ export default function NavigationBar({onVisible}) {
     setValue(item)
     console.log(activeItem)
   }
-
+  let style = {
+    "filter": value !== "About" ? 'grayscale(100%)' : '' 
+  }
   return (
     <div className='NavigationBar'>
       <ul style={{"color": visible === true ? 'black' : '' }} className='navigation'>
         <Link smooth spy to='Home'>
-          <img src={logo} onClick={() => handleActiveItem('Home')} alt='navigation bar logo'/>
+          <img src={home} onClick={() => handleActiveItem('Home')} alt='navigation bar logo'/>
         </Link>
         <Link smooth spy to='About'>
-          <li onClick={() => handleActiveItem('About')} style={{"color": value === "About" ? '#b32ec5' : '' }}> About </li>
+          <img src={user} onClick={() => handleActiveItem('About')} style={style} />
         </Link>
         <Link smooth spy to='Experience'>
-          <li onClick={() => handleActiveItem('Experience')} style={{"color": value === "Experience" ? '#b32ec5' : '' }}> Experience </li>
+          <img src={experience} onClick={() => handleActiveItem('Experience')} style={style}/>
         </Link>
         <Link smooth spy to='Projects'>
-          <li onClick={() => handleActiveItem('Projects')} style={{"color": value === "Projects" ? '#b32ec5' : '' }}> Projects </li>
+          <img src={projects} onClick={() => handleActiveItem('Projects')} style={style}/>
         </Link>
         <Link smooth spy to='Contact'>
-          <li onClick={() => handleActiveItem('Contact')} style={{"color": value === "Contact" ? '#b32ec5' : '' }}> Find Me </li>
+          <img src={contact} onClick={() => handleActiveItem('Contact')} style={style}/>
         </Link>
       </ul>
     </div>

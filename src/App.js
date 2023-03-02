@@ -32,7 +32,7 @@ function App() {
           <Projects/>
           <Contact/>
         </ScrollSpy>
-        <BackToTop style={{"margin":"30px","padding":"0", "marginLeft":"0px", "marginTop":"0px"}}
+        <BackToTop style={{"margin":"30px","padding":"0", "marginLeft":"0px", "marginTop":"0px", "zIndex" : "1000"}}
           showAt={100}
           speed={1500}
         >

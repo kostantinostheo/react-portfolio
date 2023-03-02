@@ -1,50 +1,99 @@
 .Home {
     padding: 40px;
     min-height:100vh;
-    background-color: #211f24;
+    background-image: linear-gradient(
+        180deg,
+        hsl(240deg 42% 11%) 0%,
+        hsl(253deg 44% 11%) 16%,
+        hsl(263deg 46% 11%) 27%,
+        hsl(269deg 48% 12%) 36%,
+        hsl(275deg 50% 12%) 43%,
+        hsl(275deg 49% 12%) 51%,
+        hsl(269deg 44% 11%) 58%,
+        hsl(261deg 39% 11%) 66%,
+        hsl(245deg 33% 10%) 77%,
+        hsl(218deg 46% 8%) 100%
+      );
+}
+.centeredDiv{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height:100vh;
 }
-.imgcontainer{
-    width: 310px;
-    height: 310px;
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    position: relative;
+    width: 60%;
+    margin: auto;
 }
-.ThreeDImage{
-    position: absolute;
-    bottom: 100px;
-    left: 250px;
-    opacity: 0.4;
-    width: 700px
+
+.gridItem {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    /* background-color: rgb(50, 96, 136); */
 }
+
 .Home h1{
-    font-size: 50px;
+    text-align: left;
+    font-size: 80px;
+    font-family: 'Secular One', sans-serif;
     color: aliceblue;
     letter-spacing: 2px;
-    margin-bottom: 0;
+    margin: 0;
 }
 .Home h2{
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-
+    font-size: 25px;
+    font-family: 'Secular One', sans-serif;
+    text-align: left;
     color: aliceblue;
     letter-spacing: 2px;
-    margin-top: 0;
+    margin: 0;
+    padding: 0;
 }
-.Home span{
-    color: rgb(48, 179, 43);
+.Home h3{
     font-size: 18px;
-    text-align: justify;
-    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    color: aliceblue;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
 }
-.centered.div {
-    margin-bottom: 30em;
-    position: relative;
-    max-height: inherit;
-    max-width: 40% ;
+.row {
+    margin: 0 !important;
+}
+.row h2{
+    line-height: 72px;
+    font-size: 40px;
 }
 
+.Typewriter{
+    position: relative;
+}
+.Typewriter span{
+    color: rgb(139, 120, 223);
+    font-size: 40px;
+    text-align: justify;
+    font-family: 'Secular One', sans-serif;
+    line-height: 72px;
+}
+
+.myFace{
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+.mask {
+    -webkit-mask-image: url('../../resources/Personal/SphereRandom.png');
+    mask-image: url('../../resources/Personal/SphereRandom.png');
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: repeat;
+    width: fit-content;
+  }
 @media only screen and (max-width: 600px) {
 
     .Home h1{

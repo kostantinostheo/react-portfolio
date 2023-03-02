@@ -3,6 +3,9 @@
   background-color: #211f24;
   font-family: 'Nunito', sans-serif;
 }
+.toTop{
+  z-index: 9999;
+}
 .top-button{
   width: 40px;
 }
