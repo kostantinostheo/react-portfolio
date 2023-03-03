@@ -76,7 +76,6 @@
     opacity: 50%;
 }
 .mask {
-
     position: absolute;
     bottom: 0;
     right: 0;
@@ -85,7 +84,8 @@
     -webkit-mask-repeat: no-repeat;
     mask-repeat: repeat;
     width: fit-content;
-  }
+}
+
 @media only screen and (max-width: 600px) {
 
     .Home h1{

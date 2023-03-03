@@ -1,7 +1,8 @@
 .Experience {
     padding: 40px;
     min-height: 100vh;
-    background-image: linear-gradient(#1d1b27, #191b20);
+    background-image: linear-gradient(180deg, 
+    #1d1b27, #191b20);
     /* Center child div vertically and horizontally */
     display: flex;
     flex-direction: column;
