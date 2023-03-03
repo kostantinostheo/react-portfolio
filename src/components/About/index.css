@@ -1,13 +1,17 @@
 .About {
     padding: 40px;
     min-height: 100vh;
-    background-image: linear-gradient(#211f24, #1d1b27);
+    background-image: linear-gradient(
+        180deg,
+        #0C121E 50%,
+        #322349 100%
+      );
     color: rgb(230, 244, 255);
     /* Center child div vertically and horizontally */
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 .centered {
     position: relative;

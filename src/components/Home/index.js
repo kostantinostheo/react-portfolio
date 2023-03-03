@@ -14,9 +14,10 @@ export default function Home() {
         <h2>THEOFILIS</h2>
       </div>
       <div className='centeredDiv'>
-        <div className="gridContainer">
-          <div className="gridItem">
-            <div>
+        <div className="mask">
+                <img className='myFace' src={me} alt="Cinque Terre" />
+        </div>
+        <div className='innerDiv'>
               <h1>KONSTANTINOS <br/> THEOFILIS</h1>
               <div className='row'>
                 <h2>I AM</h2>
@@ -33,18 +34,9 @@ export default function Home() {
                     }}
                 />
               </div>
-              <h3>Currently working as a Unity Software Engineer. Always working on side projects. </h3>
+              <h3>Currently working as a Unity Software Engineer. <br/>Always working on side projects. </h3>
             </div>
           </div>
-          <div className="gridItem">
-            <div className="mask">
-              <img className='myFace' src={me} alt="Cinque Terre" />
-            </div>
-            {/* <img className='myFace' src={random}/> */}
           </div>
-        </div>
-      </div>
-        
-      </div>
   );
 }
