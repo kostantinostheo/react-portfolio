@@ -4,7 +4,6 @@ import Typewriter from 'typewriter-effect';
 import { salute } from '../../utils/common';
 
 import me from '../../resources/Personal/me.jpg'
-import random from '../../resources/Personal/random.png'
 
 export default function Home() {
 

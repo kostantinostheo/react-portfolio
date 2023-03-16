@@ -1,15 +1,42 @@
 .Contact {
-    padding: 40px;
     min-height: 100vh;
-    background-image: linear-gradient(#1b222c, #270b2b);
+    background: linear-gradient(180deg, rgb(43, 17, 52) 0%, rgb(14, 17, 91) 100%);
     color: rgb(230, 230, 230);
     /* Center child div vertically and horizontally */
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
-
+.Contact form {
+    margin-top: 2em;
+}
+.Contact input{
+    margin-bottom: 1em;
+    border: rgb(255, 255, 255, 0.3) 2px solid;
+    border-radius: 5px;
+    height: 30px;
+}
+.Contact textarea{
+    margin-bottom: 2em;
+    border: rgb(255, 255, 255, 0.3) 2px solid;
+    border-radius: 5px;
+}
+.Contact button{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(59, 75, 94, 0.4);
+    border: rgb(255, 255, 255, 0.3) 2px solid;
+    border-radius: 8px;
+    float: left;
+    color: aliceblue;
+    font-size: 15px;
+}
+.Contact input, select, textarea{
+    color: rgb(166, 136, 255);
+}
+.label-input{
+    width:'fit-content'
+}
 .qrcode{
     background-color: aliceblue;
     border-radius: 8px;
@@ -19,6 +46,13 @@
     font-size: 40px;
     color: aliceblue;
     text-align: left;
+}
+.Contact h5{
+    font-size: 18px;
+    color: aliceblue;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 5px;
 }
 .row{
     margin-top: 1em;

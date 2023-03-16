@@ -24,11 +24,10 @@ export default function Experience() {
           <div className="grid-item">
             <div>
               <h3 id='work-title'>Associate Research Engineer</h3>
-              <h4 id='work-sub'><a href='https://www.di.uoa.gr' target='_black' rel="noreferrer"> National and Kapodistrian University of Athens<br/>Department of Informatics and Telecommunications </a></h4>
+              <h4 id='work-sub'><a href='https://scan.di.uoa.gr' target='_black' rel="noreferrer"> NKUA - Department of Informatics and Telecommunications </a></h4>
               <h4 id='date'>Jan 2023 - Present</h4>
-              <br/>
-              <h4 id='date'>● Digital Twins Development</h4>
-              <h4 id='date'>● Unity Development</h4>
+              <h4 id='work-sub-desc'>● Digital Twins Development</h4>
+              <h4 id='work-sub-desc'>● Unity Development</h4>
             </div>
           </div>
         </div>
@@ -41,9 +40,8 @@ export default function Experience() {
               <h3 id='work-title'>Associate Software Engineer</h3>
               <h4 id='work-sub'><a href='https://www.dsphere.io' target='_black' rel="noreferrer">dSphere.io</a></h4>
               <h4 id='date'>Sep 2022 - Dec 2022 </h4>
-              <br/>
-              <h4 id='date'>● Unity NFT Markeplace implementation</h4>
-              <h4 id='date'>● Unity Development</h4>
+              <h4 id='work-sub-desc'>● Unity NFT Markeplace implementation</h4>
+              <h4 id='work-sub-desc'>● Unity Development</h4>
             </div>
           </div>
         </div>
@@ -56,10 +54,9 @@ export default function Experience() {
               <h3 id='work-title'>Associate Software Engineer</h3>
               <h4 id='work-sub'><a href='https://wappier.com' target='_black' rel="noreferrer">wappier: Intelligent Revenue Management</a></h4>
               <h4 id='date'>Dec 2020 - Sep 2022</h4>
-              <br/>
-              <h4 id='date'>● Automation Testing with Node.js</h4>
-              <h4 id='date'>● In company testing application with Unity</h4>
-              <h4 id='date'>● Unity Development</h4>
+              <h4 id='work-sub-desc'>● Automation Testing with Node.js</h4>
+              <h4 id='work-sub-desc'>● In company testing application with Unity</h4>
+              <h4 id='work-sub-desc'>● Unity Development</h4>
             </div>
           </div>
         </div>

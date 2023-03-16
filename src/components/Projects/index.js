@@ -1,11 +1,9 @@
 import React from 'react';
-import Typewriter from 'typewriter-effect';
 import './index.css'
-import react from '../../resources/react.png'
-import csharp from '../../resources/csharp.png'
-import dotnet from '../../resources/dotnet.webp'
-import unity from '../../resources/unity.webp'
-import node from '../../resources/node.png'
+import react from '../../resources/Logos/react.png'
+import csharp from '../../resources/Logos/csharp.png'
+import unity from '../../resources/Logos/unity.png'
+import node from '../../resources/Logos/node.png'
 
 
 export default function Projects() {
@@ -15,16 +13,16 @@ export default function Projects() {
     <div className='Projects' id='projects'>
       <div className='centered'>
         <h1>Sample projects</h1>
+        <h5 style={{marginTop: "0"}}>Only for Tech Tasters</h5>
         <div className="proj-grid-container">
           <div className="proj-grid-item">
             <a href='https://github.com/kostantinostheo/.NET-Bash-Wrapper' target='_blank' rel="noreferrer">
               <div className='card'>
                 <div className='proj-icons'>
-                  <img src={dotnet} alt='dotnet icon'/>
                   <img src={csharp} alt='csharp icon'/>
                 </div>
                 <h4>.NET-Bash-Wrapper</h4>
-                <p>A set of C# methods that helps you execute bash-shell commands or .sh files</p>
+                <p>A C# wrapper that helps you execute bash-shell commands or .sh files</p>
               </div>
             </a>
           </div>
@@ -36,7 +34,7 @@ export default function Projects() {
                   <img src={node} alt='nodejs icon'/>
                 </div>
                 <h4>AuctionRiver</h4>
-                <p>A web application for auctions and online shopping</p>
+                <p>A web MERN application for auctions and online shopping</p>
               </div>
             </a>
           </div>
@@ -51,20 +49,6 @@ export default function Projects() {
                 <p>Hyper casual endless runner mobile game made with Unity</p>
               </div>
             </a>
-          </div>
-          <div className="proj-grid-item">
-              <p style={{"textAlign": "left", "fontSize":"19px", "position":'absolute' ,"bottom":"0", "paddingBottom":"25px", "margin":0}}>
-                <Typewriter
-                  className='typewritter'
-                  options={{
-                    strings: ["More coming soon...","No kidding..."],
-                    autoStart: true,
-                    loop: true,
-                    pauseFor: 6000,
-                    deleteSpeed: 30,
-                    delay: 30
-                  }}/>
-              </p>
           </div>
         </div>
       </div>
