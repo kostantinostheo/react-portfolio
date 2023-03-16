@@ -3,6 +3,10 @@
     min-height: 100vh;
     background-image: linear-gradient(#0C121E 50%, rgba(21,12,24,1) 100%);
     color: rgb(230, 244, 255);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .centered {
     position: relative;

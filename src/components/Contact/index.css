@@ -6,6 +6,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+.canvas{
+    height: 500px !important;
+    width: 500px !important;
+}
+.row-data{
+    width: fit-content !important;
+    align-items: center;
+    display: flex;
+    width: 1000px;
 }
 .Contact form {
     margin-top: 2em;
@@ -43,7 +54,7 @@
     width: 400px;
 }
 .Contact h1{
-    font-size: 40px;
+    font-size: 50px;
     color: aliceblue;
     text-align: left;
 }

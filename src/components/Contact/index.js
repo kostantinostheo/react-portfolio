@@ -1,11 +1,16 @@
+import React, { Suspense } from 'react';
+
+import { Canvas } from '@react-three/fiber';
+import { OrbitControls } from '@react-three/drei';
+
 import './index.css'
-import React from 'react';
-import tree from '../../resources/linkedTree.png'
+import Box from '../Box';
 
 export default function Contact() {
 
   return (
     <div className='Contact' id='contact'>
+      <div className='row-data'>
         <form>
           <h1>Contact me</h1>
           <div className='label-input'>
@@ -28,12 +33,15 @@ export default function Contact() {
             Send
           </button>
         </form>
+        <Canvas className='canvas'>
+            <OrbitControls enableZoom={false}/>
+            <Suspense fallback={null}>
+              <Box/>
+            </Suspense>
+        </Canvas>
+      </div>
+        
+        
     </div>
   ); 
 }
-
-
-
-
-{/* <h1>Find Me</h1>
-<img alt='qr_code' className='qrcode' src={tree}/> */}

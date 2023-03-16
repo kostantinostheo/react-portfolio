@@ -1,8 +1,8 @@
 import './index.css'
 import React from 'react';
+
 import Typewriter from 'typewriter-effect';
 import { salute } from '../../utils/common';
-
 import me from '../../resources/Personal/me.jpg'
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       </div>
       <div className='centeredDiv'>
         <div className="mask">
-                <img className='myFace' src={me} alt="Cinque Terre" />
+            <img className='myFace' src={me} alt="Cinque Terre" />
         </div>
         <div className='innerDiv'>
               <h1>KONSTANTINOS <br/> THEOFILIS</h1>
@@ -34,8 +34,8 @@ export default function Home() {
                 />
               </div>
               <h3>Currently working as a Unity Software Engineer. <br/>Always working on side projects. </h3>
-            </div>
-          </div>
-          </div>
+        </div>
+      </div>
+    </div>
   );
 }
