@@ -13,3 +13,5 @@ export const salute = [
     // "Comeeee on...", 
     // "For the love of God please keep scrolling, I really tried to build this website."
 ]
+
+export const formMessage = "Our contact form is taking a nap. If you need to reach us, just yell really loudly, or just scan the QR code."

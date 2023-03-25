@@ -33,7 +33,7 @@ export default function Home() {
                     }}
                 />
               </div>
-              <h3>Currently working as a Unity Software Engineer. <br/>Always working on side projects. </h3>
+              <h3>Currently working as a Software Research Associate  <br/> and Unity Software Engineer.</h3>
         </div>
       </div>
     </div>
