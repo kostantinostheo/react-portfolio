@@ -14,44 +14,77 @@ export default function Projects() {
       <div className='centered'>
         <h1>Sample projects</h1>
         <h5 style={{marginTop: "0"}}>Only for Tech Tasters</h5>
+        <h3 className='categoryTitle'>Web Development</h3>
         <div className="proj-grid-container">
-          <div className="proj-grid-item">
-            <a href='https://github.com/kostantinostheo/.NET-Bash-Wrapper' target='_blank' rel="noreferrer">
-              <div className='card'>
-                <div className='proj-icons'>
-                  <img src={csharp} alt='csharp icon'/>
-                </div>
-                <h4>.NET-Bash-Wrapper</h4>
-                <p>A C# wrapper that helps you execute bash-shell commands or .sh files</p>
-              </div>
-            </a>
-          </div>
-          <div className="proj-grid-item">
-            <a href='https://github.com/kostantinostheo/AuctionRiver' target='_blank' rel="noreferrer">
-              <div className='card'>
-                <div className='proj-icons'>
-                  <img src={react} alt='react icon'/>
-                  <img src={node} alt='nodejs icon'/>
-                </div>
-                <h4>AuctionRiver</h4>
-                <p>A web MERN application for auctions and online shopping</p>
-              </div>
-            </a>
-          </div>
-          <div className="proj-grid-item">
-            <a href='https://play.google.com/store/apps/details?id=com.KonstantinosTheofilis.Nohandshakesplease&pli=1' target='_blank' rel="noreferrer">
-              <div className='card'>
-                <div className='proj-icons'>
-                  <img src={unity} alt='unity icon'/>
-                  <img src={csharp} alt='csharp icon'/>
-                </div>
-                <h4>No Handshakes Please</h4>
-                <p>Hyper casual endless runner mobile game made with Unity</p>
-              </div>
-            </a>
-          </div>
+          <ProjectCard 
+            title="Construction Company Nomikos" 
+            sub="React Website" 
+            description="Construction Company Nomikos is a single page application made with React App." 
+            projectUrl='https://constructioncompanynomikos.gr'
+            logos={[react, node]}
+          />
+          <ProjectCard 
+            title="AuctionRiver" 
+            sub="Full Stack Application" 
+            description="A web MERN application for auctions and online shopping. Developed as university assignment." 
+            projectUrl='https://github.com/kostantinostheo/AuctionRiver'
+            logos={[react, node]}
+          />
+          <ProjectCard 
+            title="My React Portfolio" 
+            sub="React Website"
+            description="My portfolio web page was completely developed by me using node.js React app." 
+            projectUrl='https://github.com/kostantinostheo/AuctionRiver'
+            logos={[react, node]}
+          />
+        </div>
+        <h3 className='categoryTitle'>Game Development</h3>
+        <div className="proj-grid-container">
+          <ProjectCard 
+            title="No Handshakes Please" 
+            sub="Mobile Game" 
+            description="Hyper casual endless runner mobile game made with Unity." 
+            projectUrl='https://play.google.com/store/apps/details?id=com.KonstantinosTheofilis.Nohandshakesplease&pli=1'
+            logos={[unity, csharp]}
+          />
+          <ProjectCard 
+            title="Brutal Rush" 
+            sub="Mobile Game" 
+            description="Casual endless mobile game made with Unity. If you like heavy metal you will enjoy it." 
+            projectUrl='https://www.meme-arsenal.com/memes/69366e9c8d4d261311289778f712d5b2.jpg'
+            logos={[unity, csharp]}
+          />
+          <ProjectCard 
+            title="A Card Game" 
+            sub="Mobile Game" 
+            description="It's a secret shh..." 
+            projectUrl='https://www.sd5.bc.ca/resources/drc/PublishingImages/Under%20Construction%20Meme.jpg'
+            logos={[unity, csharp]}
+          />
         </div>
       </div>
     </div>
+  );
+}
+
+function ProjectCard({title, sub, description, projectUrl, logos}){
+  return(
+    <div className="proj-grid-item">
+            <a href={projectUrl} target='_blank' rel="noreferrer">
+              <div className='card'>
+                <img alt='external link' className='link' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAtElEQVR4nO2SMQ6DMAxFuQSoR0A9Sc7dDgztVIbuqVT1Fg+BMiES7GCKWuWNUeJn/7iqCr8IcCVOd5SY3cSzJmrg8VUx0AB98PUiMeCAFzo+wDkibaRibykN5yLx+qX1P30CJ1VNMsSxSWfbfjEVJ+Kd4td0P7ElXqAF3ruIScQbFg5zMYlF0jSfI74tTaqpkSvugPuSVFrD5pFFDYo4gxK1iCOXy2OD14qdgXx875RBFf6MAeVoDxazOQxKAAAAAElFTkSuQmCC"/>
+                <h4>{title}</h4>
+                <h5>{sub}</h5>
+                <p>{description}</p>
+                <div className='proj-icons'>
+                  {
+                    logos.map((logo)=>{
+                      return (<img src={logo} alt='a logo that shows application type'/>)
+                    })
+                  }
+                </div>
+              </div>
+            </a>
+          </div>
   );
 }

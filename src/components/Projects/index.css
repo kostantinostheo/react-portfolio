@@ -30,13 +30,22 @@
 .Projects img{
     width: 40px;
 }
+.categoryTitle{
+    text-align: left;
+    color: aliceblue;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 20px;
+}
 .proj-grid-container {
     display: grid;
-    grid-template-columns: auto auto;
-    padding: 10px;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    padding: 5px;
 }
+
 .proj-grid-item {
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
     text-align: left;
 }
@@ -45,6 +54,7 @@
     color: #ffffff;
 }
 .card{
+    position: relative;
     background-image: linear-gradient(
         230deg,
         hsl(278deg 30% 30%) 0%,
@@ -52,8 +62,8 @@
         hsl(252deg 58% 10%) 100%
       );
     border: rgb(64 22 98) 2px solid;
-    border-radius: 20px;
-    height: 150px;
+    border-radius: 10px;
+    height: 200px;
     padding: 10px;
     width: 300px;
     text-align: left;
@@ -62,7 +72,13 @@
 
 .card h4{
     color: rgb(194, 63, 206);
-    font-size: 25px;
+    font-size: 20px;
+    margin: 0;
+    text-decoration: none;
+}
+.card h5{
+    color: rgb(91, 147, 233);
+    font-size: 18px;
     margin: 0;
     text-decoration: none;
 }
@@ -75,12 +91,31 @@
 }
 .proj-icons{
     display: inline;
+    position: absolute;
+    bottom: 0;
 }
 .proj-icons img{
     padding-right: 0.2em;
     width: 30px;
 }
 
+.folder{
+    opacity: 0.8;
+    width: 30px !important;
+}
+.link{
+    float: right;
+    width: 20px !important;
+}
+
+@media only screen and (max-width: 1050px) {
+    .proj-grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: auto;
+        padding: 5px;
+    }
+}
 
 
 @media only screen and (max-width: 600px) {
