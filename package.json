@@ -1,5 +1,5 @@
 {
-  "homepage": "http://kostantinostheo.github.io/react-portfolio",
+  "homepage": "http://ktheofilis.com",
   "name": "konstantinostheo",
   "version": "0.1.0",
   "private": true,
@@ -12,10 +12,11 @@
     "react": "^18.2.0",
     "react-back-to-top-button": "^0.0.14",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-is-visible": "^1.2.0",
-    "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.8",
+    "react-snap": "^1.23.0",
     "react-ui-scrollspy": "^2.3.0",
     "three": "^0.150.1",
     "typewriter-effect": "^2.19.0",
@@ -27,7 +28,8 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postbuild": "react-snap"
   },
   "eslintConfig": {
     "extends": [

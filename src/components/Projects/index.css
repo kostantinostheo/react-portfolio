@@ -17,7 +17,6 @@
     color: aliceblue;
     text-align: left;
     font-size: 40px;
-
 }
 
 .Projects h5 {
@@ -39,7 +38,7 @@
 }
 .proj-grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 350px 350px 350px;
     margin: auto;
     padding: 5px;
 }
@@ -142,5 +141,9 @@
         height: fit-content;
         text-align: left;
         transition: all .2s ease-in-out;
+    }
+    .proj-icons{
+        display: inline;
+        position: relative;
     }
 }

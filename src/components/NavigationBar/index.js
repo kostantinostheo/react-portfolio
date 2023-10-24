@@ -32,16 +32,16 @@ export default function NavigationBar({onVisible}) {
           <img src={home} onClick={() => handleActiveItem('Home')} alt='navigation bar logo'/>
         </Link>
         <Link smooth spy to='About'>
-          <img src={user} onClick={() => handleActiveItem('About')} style={style} />
+          <img src={user} onClick={() => handleActiveItem('About')} style={style} alt='about logo on navigation bar'/>
         </Link>
         <Link smooth spy to='Experience'>
-          <img src={experience} onClick={() => handleActiveItem('Experience')} style={style}/>
+          <img src={experience} onClick={() => handleActiveItem('Experience')} style={style} alt='experience logo on navigation bar'/>
         </Link>
         <Link smooth spy to='Projects'>
-          <img src={projects} onClick={() => handleActiveItem('Projects')} style={style}/>
+          <img src={projects} onClick={() => handleActiveItem('Projects')} style={style} alt='project logo on navigation bar'/>
         </Link>
         <Link smooth spy to='Contact'>
-          <img src={contact} onClick={() => handleActiveItem('Contact')} style={style}/>
+          <img src={contact} onClick={() => handleActiveItem('Contact')} style={style} alt='contact logo on navigation bar'/>
         </Link>
       </ul>
     </div>

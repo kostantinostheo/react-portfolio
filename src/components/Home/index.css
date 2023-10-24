@@ -15,6 +15,12 @@
         hsl(218deg 46% 8%) 100%
       );
 }
+.HomeTop{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
 .centeredDiv{
     display: flex;
     flex-direction: column;

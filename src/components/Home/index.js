@@ -4,6 +4,7 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 import { salute } from '../../utils/common';
 import me from '../../resources/Personal/me.jpg'
+import Quotes from '../../resources/Icons/quotes.webp';
 
 export default function Home() {
 
@@ -11,6 +12,7 @@ export default function Home() {
     <div className='Home' id='home'>
       <div className='HomeTop'> 
         <h2>THEOFILIS</h2>
+        <img src={Quotes} width={40} alt='quotes'/>
       </div>
       <div className='centeredDiv'>
         <div className="mask">

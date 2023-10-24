@@ -17,16 +17,16 @@ export default function Projects() {
         <h3 className='categoryTitle'>Web Development</h3>
         <div className="proj-grid-container">
           <ProjectCard 
-            title="Construction Company Nomikos" 
+            title="Construction Company " 
             sub="React Website" 
             description="Construction Company Nomikos is a single page application made with React App." 
             projectUrl='https://constructioncompanynomikos.gr'
             logos={[react, node]}
           />
           <ProjectCard 
-            title="AuctionRiver" 
+            title="Auction River"
             sub="Full Stack Application" 
-            description="A web MERN application for auctions and online shopping. Developed as university assignment." 
+            description="A web MERN application for auctions and online shopping. Practically it's an Ebay clone and was developed as a university assignment." 
             projectUrl='https://github.com/kostantinostheo/AuctionRiver'
             logos={[react, node]}
           />
@@ -52,13 +52,6 @@ export default function Projects() {
             sub="Mobile Game" 
             description="Casual endless mobile game made with Unity. If you like heavy metal you will enjoy it." 
             projectUrl='https://www.meme-arsenal.com/memes/69366e9c8d4d261311289778f712d5b2.jpg'
-            logos={[unity, csharp]}
-          />
-          <ProjectCard 
-            title="A Card Game" 
-            sub="Mobile Game" 
-            description="It's a secret shh..." 
-            projectUrl='https://www.sd5.bc.ca/resources/drc/PublishingImages/Under%20Construction%20Meme.jpg'
             logos={[unity, csharp]}
           />
         </div>
