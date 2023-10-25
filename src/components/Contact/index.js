@@ -46,13 +46,11 @@ export default function Contact() {
         <Canvas className='canvas'>
             <OrbitControls enableZoom={false}/>
             <Suspense fallback={null}>
-              <Box/>
+              <Box />
             </Suspense>
         </Canvas>
-        <h5 id='textMobile'>or click <a href="https://linktr.ee/ktheofilis?utm_source=linktree_profile_share&ltsid=213b6583-a619-45ab-9242-2f8b8c1efdb9&fbclid=IwAR3xsgP0FzvSFZmxR49fenRjxutTh4rVzdJxjEimiE0jP7kuOOQSU_5qkvk">here</a></h5>
-      </div>
-        
-        
+        </div>
+        <h5 id='textMobile'>or click <a href="https://linktr.ee/ktheofilis?utm_source=linktree_profile_share&ltsid=213b6583-a619-45ab-9242-2f8b8c1efdb9&fbclid=IwAR3xsgP0FzvSFZmxR49fenRjxutTh4rVzdJxjEimiE0jP7kuOOQSU_5qkvk">here</a></h5>        
     </div>
   ); 
 }

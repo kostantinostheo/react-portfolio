@@ -51,7 +51,7 @@ export default function Projects() {
             title="Brutal Rush" 
             sub="Mobile Game" 
             description="Casual endless mobile game made with Unity. If you like heavy metal you will enjoy it." 
-            projectUrl='https://www.meme-arsenal.com/memes/69366e9c8d4d261311289778f712d5b2.jpg'
+            projectUrl='https://theofilis.itch.io/brutal-rush'
             logos={[unity, csharp]}
           />
         </div>

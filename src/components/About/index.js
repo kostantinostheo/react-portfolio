@@ -12,24 +12,32 @@ export default function About() {
             <br/>            
             <h3>How it started</h3>
             <p>
-              Started as a lowly intern, back in 2020, in the QA team, I was so green that plants were jealous of me. But with hard work and determination, I climbed the tech ladder faster than a cat on a hot tin roof.
-              I started learning about networking development fundamentals and realized that my brain was bigger than I thought. So, I said to myself, <i>"Self, why not learn how to automate tests for web applications and APIs too?"</i> And 
-              let me tell you, automating tests was harder than I thought, but I managed to pull it off. 
+            My journey started back in 2020 as an intern in the QA team. I was quite inexperienced, to say the least. I had a lot to learn, but I was determined to grow in the tech world.
+            I began diving into networking development fundamentals and discovered that I had more potential than I initially thought. 
+            This led me on automating tests for web applications and APIs. I'll admit, it was a bit tougher than I expected, but I managed to make it work.
             </p>
             <br/>            
             <p>
-              After my internship was finished, I was moved up to the Unity team.
-              I was tasked with implementing a Unity wrapper for an SDK, which was like trying to fit a square peg into a round hole, but with some elbow grease and a few swear words, I got it done.
-              But that was just the beginning. I also had to develop in-company applications for testing. It wasn't easy, but it was damn rewarding.
-              And then, as if that wasn't enough, I was asked to create E2E marketplace applications using Unity and C#. I mean, who needs sleep when you can be coding all night, right?
+            After my internship, I moved up to the Unity team. My main task was to create a Unity wrapper for an SDK, which sometimes felt like fitting a square peg into a round hole. 
+            However, with persistence and a few swearing I managed to accomplish it. But that was just the beginning. I also had to develop in-house applications for testing. 
+            It wasn't a walk in the park, but the challenges were incredibly rewarding. And if that wasn't enough, I was even asked to create end-to-end marketplace applications using 
+            Unity and C#. 
+            <br/>Who needs sleep when you can code all night, right?
             </p>
             <h3>How its going</h3>
             <p>
               Today I work as an Associate Research Engineer at the Department of Informatics and Telecommunications in the University of Athens. 
               I'm knee-deep in coding wizardry for Smart Cities and Digital Twins - it's like playing SimCity, but with less disasters (hopefully).
             </p>
-            <h4>Download My CV</h4>
-            <button><a href={pdf} target='_blank' rel="noreferrer"><img src={download} width={40} alt='download button'/></a></button> 
+            <div className='download_contain'>
+            <a href={pdf} target='_blank' rel="noreferrer" style={{"textDecoration": "none"}}>
+              <button className='download_cv'>
+                <b>Download my CV </b>
+                <img src={download} width={40} alt='download button'/>
+              </button> 
+              </a>
+            </div>
+           
       </div>
     </div>
   );

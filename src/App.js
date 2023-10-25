@@ -1,6 +1,5 @@
 import './App.css';
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import ScrollSpy from 'react-ui-scrollspy';
 import BackToTop from "react-back-to-top-button";
@@ -13,7 +12,6 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import arrow from "./resources/ArrowUp.png"
 import { Helmet } from 'react-helmet';
-import Jobs from './components/Job'
 export const ActiveItemContext = React.createContext({
   activeItem: 'home',
   setActiveItem: () => {}
@@ -41,7 +39,6 @@ function App() {
           <Home/>
           <About/>
           <Experience/>
-          <Jobs/>
           <Projects/>
           <Contact/>
         </ScrollSpy>

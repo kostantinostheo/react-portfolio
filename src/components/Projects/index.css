@@ -1,9 +1,9 @@
 .Projects {
-    padding: 40px;
-    min-height: 100vh;
+    padding: 50px;
+    min-height: 80vh;
     background: rgb(21,12,24);
     background: linear-gradient(180deg, rgba(32,25,57,1) 5%, rgb(43, 17, 52) 100%);
-    /* Center child div vertically and horizontally */
+    justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +11,7 @@
 }
 
 .Projects h1{
-    margin-left: 0.85em;
+    margin-left: 0.5em;
     margin-top: 0;
     margin-bottom: 0;
     color: aliceblue;
@@ -20,7 +20,7 @@
 }
 
 .Projects h5 {
-    margin-left: 2.3em;
+    margin-left: 1.5em;
     font-size: 15px;
     color: #ffffff;
     text-align: left;

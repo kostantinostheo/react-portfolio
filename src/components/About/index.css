@@ -1,6 +1,6 @@
 .About {
     padding: 40px;
-    min-height: 100vh;
+    min-height: 50vh;
     background-image: linear-gradient(#0C121E 50%, rgba(21,12,24,1) 100%);
     color: rgb(230, 244, 255);
     justify-content: center;
@@ -21,14 +21,14 @@
     text-align: left;
 }
 .About h5 {
-    font-size: 15px;
-    color: #ce29e4;
+    font-size: 18px;
+    color: #E89A38;
     margin: auto;
     width: 60%;
     text-align: left;
 }
 .About h3 {
-    color: #ce29e4;
+    color: #E89A38;
     margin: auto;
     width: 60%;
     text-align: left;
@@ -44,12 +44,12 @@
 .About h4 {
     padding-top: 1em;
     text-align: center;
-    color: #ce29e4;
+    color: #E89A38;
 }
 .About button {
     height: 45px;
     border-radius: 10px;
-    background-color: #ce29e4;
+    background-color: #E89A38;
 
     border: 0;
 }
@@ -61,6 +61,21 @@
 
 .About button:hover{
     cursor: pointer;
+}
+
+.download_contain{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.download_cv{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Nunito', sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
